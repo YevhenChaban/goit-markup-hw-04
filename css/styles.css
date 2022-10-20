@@ -342,7 +342,8 @@ nav .studio {
   fill: #afb1b8;
 }
 
-.team-social:hover {
+.team-social:hover,
+.team-social:focus {
   background-color: #188ce8;
   border-radius: 50%;
   fill: var(--white-color);
@@ -371,7 +372,8 @@ nav .studio {
   fill: #afb1b8;
 }
 
-.client-card:hover {
+.client-card:hover,
+.client-card:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
@@ -474,8 +476,9 @@ address a:focus {
   border-radius: 50%;
 }
 
-.join-social:hover {
-  background-color: #188ce8;
+.join-social:hover,
+.join-social:focus {
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
@@ -525,7 +528,8 @@ address a:focus {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.project-item:hover {
+.project-item:hover,
+.project-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
