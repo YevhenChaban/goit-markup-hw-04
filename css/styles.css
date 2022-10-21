@@ -137,6 +137,8 @@ nav .studio {
 }
 
 .contacts-list a {
+  display: inline-flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -169,8 +171,8 @@ nav .studio {
   background-color: #000;
   background-image: linear-gradient(
       to right,
-      rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url(../images/Img.jpg);
   background-size: cover;
@@ -228,8 +230,14 @@ nav .studio {
 }
 
 .feature-icon {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-  fill: #afb1b8;
+  border-radius: 4px;
+  background-color: #f5f4fa;
 }
 
 .features-title {
@@ -310,7 +318,8 @@ nav .studio {
   margin: 0px;
   margin-top: 10px;
   text-align: center;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.1;
 }
 
 .section-team h3 {
@@ -322,12 +331,11 @@ nav .studio {
 }
 
 .team-icons {
-  margin: 0 auto;
-  width: 206px;
-  height: 44px;
+  margin-top: 16px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .team-social {
@@ -438,28 +446,25 @@ address a:focus {
 .join-us {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 206px;
-  height: 80px;
+  /* justify-content: space-between; */
+  align-items: baseline;
   margin-left: 70px;
-  margin-top: 12px;
 }
 
 .join-us-title {
   margin: 0;
+  margin-top: 12px;
   text-align: start;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
 }
 
-.join-us-icons {
+.join-us-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .join-social {
@@ -514,7 +519,8 @@ address a:focus {
 .filter-item button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects-list {
@@ -530,7 +536,8 @@ address a:focus {
 
 .project-item:hover,
 .project-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-content {
